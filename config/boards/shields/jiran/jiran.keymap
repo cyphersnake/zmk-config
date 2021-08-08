@@ -19,15 +19,15 @@
            &kp K_CMENU &kp A  &kp S  &kp D  &kp F  &kp G                        &kp H  &kp J   &kp K    &kp L   &kp SCLN &mt RSFT SQT
            &kp LCTL    &kp Z  &kp X  &kp C  &kp V  &kp B                        &kp N  &kp M   &kp CMMA &kp DOT &kp FSLH &mt RCTL BSLH
                                            &kp SPC &kp LSFT  &kp LALT  &kp BSLH &mo 1  &mt MINUS EQUAL
-                        >;
+                                           >;
                 };
                 lower_layer {
-                       bindings = <
+                       bindings <
           &kp GRAVE &kp F1 &kp F2   &kp F3   &kp F4    &kp F5      &kp F6       &kp F7    &kp F8   &kp F9    &kp F10         &kp EQUAL
  &kp F11  &kp TAB   &none  &kp HOME &reset   &none     &none       &kp C_VOL_UP &kp PG_UP &reset   &kp HOME  &kp INS         &kp DEL       &kp F12
           &kp LSFT  &none  &kp LEFT &kp UP   &kp RIGHT &none       &kp LEFT     &kp DOWN  &kp UP   &kp RIGHT &kp PSCRN       &mt RSFT SLCK
           &kp LCTL  &none  &kp END  &kp DOWN &none     &none       &kp C_VOL_DN &kp PG_DN &kp DOWN &kp END   &kp PAUSE_BREAK &kp RCTL
-                                         &trans &trans  &trans    &trans &trans &kp EQUAL
+                                         &trans &trans &trans      &kp RWIN &trans &kp EQUAL
                        >;
                };
         };
