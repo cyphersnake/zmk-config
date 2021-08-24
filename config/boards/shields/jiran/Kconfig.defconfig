@@ -3,19 +3,16 @@ if SHIELD_JIRAN_LEFT
 
 config ZMK_KEYBOARD_NAME
 	default "GlobusCruciger"
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
 endif
 
 if SHIELD_JIRAN_RIGHT
-
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
 config ZMK_KEYBOARD_NAME
 	default "Sceptre"
 endif
 
 if SHIELD_JIRAN_LEFT || SHIELD_JIRAN_RIGHT
-
 config ZMK_SPLIT
 	default y
-
 endif
